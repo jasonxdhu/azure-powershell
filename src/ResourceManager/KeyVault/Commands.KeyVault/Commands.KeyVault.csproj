@@ -93,6 +93,10 @@
     <Compile Include="Commands\UndoAzureKeyVaultRemoval.cs" />
     <Compile Include="Commands\UndoAzureKeyVaultKeyRemoval.cs" />
     <Compile Include="Commands\UndoAzureKeyVaultSecretRemoval.cs" />
+    <Compile Include="Commands\VirtualNetworkRuleSet\AddAzureKeyVaultNetworkRuleSet.cs" />
+    <Compile Include="Commands\VirtualNetworkRuleSet\KeyVaultNetworkRuleSetBase.cs" />
+    <Compile Include="Commands\VirtualNetworkRuleSet\RemoveAzureRmKeyVaultNetworkRuleSet.cs" />
+    <Compile Include="Commands\VirtualNetworkRuleSet\UpdateAzureKeyVaultNetworkRuleSet.cs" />
     <Compile Include="Models\DeletedCertificateIdentityItem.cs" />
     <Compile Include="Models\DeletedKeyVaultCertificate.cs" />
     <Compile Include="Models\PSDeletedVault.cs" />
@@ -117,6 +121,7 @@
     <Compile Include="Models\ManagedStorageAccounts\ManagedStorageSasDefinitionAttributes.cs" />
     <Compile Include="Models\ManagedStorageAccounts\ManagedStorageSasDefinitionListItem.cs" />
     <Compile Include="Models\ManagedStorageAccounts\ManagedStorageSasDefinitiontFilterOptions.cs" />
+    <Compile Include="Models\PSVaultNetworkRuleSet.cs" />
     <Compile Include="Models\VaultManagementClient.cs" />
     <Compile Include="Models\ModelExtensions.cs" />
     <Compile Include="Models\PSVault.cs" />
